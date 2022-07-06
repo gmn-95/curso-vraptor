@@ -12,7 +12,6 @@ import br.com.caelum.vraptor.Result;
 public class Mundo {
 
 	private final Result result;
-	
 	public Mundo(Result result) {
 		this.result = result;
 	}
@@ -23,7 +22,7 @@ public class Mundo {
 	
 	public void paises() {
 		List<String> resultado = new ArrayList<>();
-		resultado.add("Brasil");
+		resultado.add("Brasil ");
 		resultado.add("Portugal");
 		resultado.add("Japão");
 		resultado.add("Canadá");

@@ -5,8 +5,10 @@
 <hibernate-configuration>
     <session-factory>
     	<property name="hibernate.connection.username">root</property>
-    	<property name="hibernate.connection.password">#Mysql_r00t</property>
-    	<property name="hibernate.connection.url">jdbc:mysql://localhost/fj28</property>
+<!--    	<property name="hibernate.connection.password">mysql@local</property>-->
+		<property name="hibernate.connection.password">#Mysql_r00t</property>
+<!--    	<property name="hibernate.connection.url">jdbc:mysql://localhost/fj28?useSSL=false</property>-->
+		<property name="hibernate.connection.url">jdbc:mysql://localhost/fj28</property>
     	<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
     	<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
     	<property name="hibernate.hbm2ddl.auto">update</property>
@@ -14,6 +16,6 @@
     	<property name="format_sql">true</property>
     	
     	
-    	<mapping class="com.gustavo.cursovrapto.model.entities.Produto"/>
+    	<mapping class="com.gustavo.cursovraptor.model.entities.Produto"/>
     </session-factory>
 </hibernate-configuration>
